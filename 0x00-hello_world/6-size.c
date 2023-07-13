@@ -10,7 +10,7 @@ int main(void)
 	printf("Size of a long int: %u byte(s)", (unsigned int)sizeof(long int));
 	printf("Size of a long long int: %u byte(s)", (unsigned int)
 	sizeof(long long int));
-	printf("Size of a float: %u byte(s)", (unsigned int) sizeof(float));
+	printf("Size of a float: %u byte(s)", (unsigned int)sizeof(float));
 	return (0);
 
 }
