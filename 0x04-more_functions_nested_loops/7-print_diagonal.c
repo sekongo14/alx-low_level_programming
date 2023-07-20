@@ -6,6 +6,9 @@
  */
 int void print_diagonal(int n)
 {
+	int i;
+	int j;
+
 	if (n <= 0)
 	{
 		_putchar('\n');
