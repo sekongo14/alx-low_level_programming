@@ -4,7 +4,7 @@
  * @n: variable
  * Return: 1 if c is upper  else return 0
  */
-int void print_diagonal(int n)
+void print_diagonal(int n)
 {
 	int i;
 	int j;
