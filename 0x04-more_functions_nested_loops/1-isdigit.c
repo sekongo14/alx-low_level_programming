@@ -1,7 +1,7 @@
 #include "main.h"
 #include<ctype.h>
 /**
- * _isupper - entry point
+ * _isdigit - entry point
  * @c: variable
  * Return: 1 if c is upper  else return 0
  */
@@ -15,4 +15,5 @@ int _isdigit(int c)
 	{
 		return (0);
 	}
+
 }
