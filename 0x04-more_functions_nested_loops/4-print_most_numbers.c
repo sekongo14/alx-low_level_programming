@@ -3,7 +3,7 @@
  * print_numbers - entry point
  * Return: 1 if c is upper  else return 0
  */
-void print_numbers(void)
+void print_most_numbers(void)
 {
 	int n;
 
