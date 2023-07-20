@@ -1,0 +1,25 @@
+#include "main.h"
+/**
+ * print_diagonal - entry point
+ * @n: variable
+ * Return: 1 if c is upper  else return 0
+ */
+int void print_diagonal(int n)
+{
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	else
+	{
+		for (i = 0; i < n; i++)
+		{
+			for (j = 0; j < i; j++)
+			{
+				_putchar(' ');
+			}
+			_putchar('\\');
+			_putchar('\n');
+		}
+	}
+}
