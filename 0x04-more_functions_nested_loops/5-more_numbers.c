@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * more_numbers - entry point
- * Return: 1 if c is upper  else return 0
  */
 void more_numbers(void)
 {
