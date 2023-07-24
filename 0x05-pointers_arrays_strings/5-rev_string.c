@@ -11,7 +11,7 @@ void rev_string(char *s)
 	{
 		leng++;
 	}
-
+	leng--;
 	int fin = leng - 1;
 
 	char temp;
