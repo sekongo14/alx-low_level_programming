@@ -13,6 +13,7 @@ void rev_string(char *s)
 	}
 	int fin = leng - 1;
 	char temp;
+
 	while (debut < fin)
 	{
 		temp = s[debut];
@@ -21,6 +22,4 @@ void rev_string(char *s)
 		debut++;
 		fin--;
 	}
-
-
 }
