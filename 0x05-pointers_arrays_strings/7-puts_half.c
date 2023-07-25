@@ -13,9 +13,15 @@ void puts_half(char *str)
 	{
 		leng++;
 	}
-	leng1 = leng / 2;
+	if ((leng + 1) % 2 != 0)
+	{
+		leng1 = (leng -1) / 2;
+	}
+	else
+	{
+		leng1 = leng / 2;
+	}
 	i = leng1;
-
 	while (i < leng)
 	{
 		_putchar(str[i]);
