@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * puts_half - entry point
  * @str: pointer
