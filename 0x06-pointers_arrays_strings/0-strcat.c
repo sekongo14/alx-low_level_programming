@@ -7,12 +7,12 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int leng =0;
+	int leng = 0;
 	int j = 0;
 
 	while (dest[leng] != '\0')
 	{
-		leng ++;
+		leng++;
 	}
 
 	while(src[j] != '\0')
@@ -23,5 +23,5 @@ char *_strcat(char *dest, char *src)
 	}
 
 	dest[leng] = '\0';
-	return dest;
+	return (dest);
 }
