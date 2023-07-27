@@ -21,8 +21,16 @@ char *cap_string(char *s)
 		}
 		else if (majusculeSuivante && *ptr >= 'a' && *ptr <= 'z')
 		{
-			*ptr = *ptr - ('a' - 'A');
-			majusculeSuivante = 0;
+			if (ptr == s || *(ptr - 1) == ' ' ||
+					*(ptr - 1) == '\t' || *(ptr - 1) == '\n' ||
+			*(ptr - 1) == ',' || *(ptr - 1) == ';' || *(ptr - 1) == '.' ||
+			*(ptr - 1) == '!' || *(ptr - 1) == '?' || *(ptr - 1) == '"' ||
+			*(ptr - 1) == '(' || *(ptr - 1) == ')' || *(ptr - 1) == '{' ||
+			*(ptr - 1) == '}')
+			{
+				*ptr = *ptr - ('a' - 'A');
+				majusculeSuivante = 0;
+			}
 		}
 		ptr++;
 	}
