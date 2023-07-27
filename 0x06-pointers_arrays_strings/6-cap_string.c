@@ -7,7 +7,7 @@
 char *cap_string(char *s)
 {
 	int majusculeSuivante = 1;
-	char *ptr = str;
+	char *ptr = s;
 
 	while (*ptr != '\0')
 	{
