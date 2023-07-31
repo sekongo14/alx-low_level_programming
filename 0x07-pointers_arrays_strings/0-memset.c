@@ -1,10 +1,12 @@
 #include "main.h"
+
 /**
- * _memset - entry point
- * @s: pointer
- * @b: variable
- * @n: unsigned var
- * Return: 0
+ * _memset - fills memory with a constant byte
+ * @s: memory space to be filled
+ * @b: byte 
+ * @n: number of spaces to fill
+ *
+ * Return: pointer s
  */
 
 char *_memset(char *s, char b, unsigned int n)
@@ -15,6 +17,5 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		*(s + i) = b;
 	}
-	putchar('\n')
 	return (s);
 }
