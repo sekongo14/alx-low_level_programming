@@ -16,8 +16,8 @@ void print_diagsums(int *a, int size)
 		sommeDiagonalePrincipale += a[i * size + i];
 		sommeDiagonaleSecondaire += a[i * size + (size - 1 - i)];
 	}
-	printf("%d",sommeDiagonalePrincipale);
+	printf("%d", sommeDiagonalePrincipale);
 	printf(", ");
-	printf("%d",sommeDiagonaleSecondaire);
+	printf("%d", sommeDiagonaleSecondaire);
 	printf("\n");
 }
