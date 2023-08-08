@@ -10,8 +10,8 @@
 char *_strdup(char *str)
 {
 	char *s;
-	int i;
-	int leng;
+	size_t i;
+	size_t leng;
 
 	leng = strlen(str);
 	if (str == NULL)
@@ -30,5 +30,4 @@ char *_strdup(char *str)
 		s[i] = str[i];
 	}
 	return (s);
-	free(s);
 }
