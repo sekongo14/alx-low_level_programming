@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 /**
  * _calloc - function to create array
@@ -24,6 +25,6 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	{
 		return (NULL);
 	}
-	memset(s, 0, nmemb * size)
+	memset(s, 0, nmemb * size);
 	return (s);
 }
