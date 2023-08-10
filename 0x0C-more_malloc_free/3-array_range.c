@@ -33,9 +33,9 @@ int *array_range(int min, int max)
 		return (NULL);
 	}
 
-	for (j = min; j <= max; j++)
+	for (j = 0; j <= len; j++)
 	{
-		s[j] = j;
+		s[j] = min + j;
 	}
 	return (s);
 }
