@@ -1,12 +1,12 @@
-#include "dog.h"
-#include <stdio.h>
 #include <stdlib.h>
+#include "dog.h"
+
 /**
- * init_dog - function to initalized a dog
- * @d: structure
- * @name: name
+ * init_dog - function
+ * @d: pointer
+ * @name: name of dog
  * @age: age
- * @owner: owner
+ * @owner: 3rd member to be intialized
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
