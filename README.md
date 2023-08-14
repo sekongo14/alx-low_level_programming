@@ -1,1 +1,1 @@
-0x00. C - Hello, World
+0x0E. C - Structures, typedef
