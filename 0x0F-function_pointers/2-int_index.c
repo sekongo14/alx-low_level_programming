@@ -3,15 +3,14 @@
 /**
  * int_index - fonction to searches an integer
  * @size: size of array
+ * @array: array
  * @cmp: fontion2
+ * Return: the integer
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
 {
-	size_t i;
-
-	if (!array || !cmp || (size < 1))
-		return;
+	int i;
 
 	if (size <= 0)
 	{
