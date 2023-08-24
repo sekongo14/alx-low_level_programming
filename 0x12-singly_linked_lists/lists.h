@@ -11,6 +11,7 @@
  */
 #include <stddef.h>
 #include <stdio.h>
+#include <string.h>
 typedef struct list_s
 {
 	char *str;
