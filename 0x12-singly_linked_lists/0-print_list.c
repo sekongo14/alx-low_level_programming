@@ -1,6 +1,7 @@
 #include "lists.h"
 #include <stdlib.h>
-
+#include <stddef.h>
+#include <stdio.h>
 /**
  * print_list - print a list
  * @h: pointer to lst
@@ -15,7 +16,7 @@ size_t print_list(const list_t *h)
 	{
 		if (h->str == NULL)
 		{
-			printf("[%zu] (nil)\n";
+			printf("[%lu] (nil)\n", i);
 		}
 
 		else
