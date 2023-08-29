@@ -3,15 +3,18 @@
 #include <stddef.h>
 
 /**
- * add_node_end - add new node at end
+ * free_listint - add new node at end
  * @head: pointe to the first elem
- * @str: str
- * Return: new_node
  */
 
 void free_listint(listint_t *head)
 {
 	listint_t *tmp;
+
+	if (!head)
+	{
+		return;
+	}
 
 	while (head)
 	{
