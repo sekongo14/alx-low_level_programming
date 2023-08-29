@@ -3,7 +3,7 @@
 #include <stddef.h>
 
 /**
- * free_listint - add new node at end
+ * free_listint2 - add new node at end
  * @head: pointe to the first elem
  */
 
@@ -13,8 +13,8 @@ void free_listint2(listint_t **head)
 
 	while (head)
 	{
-		*tmp = *head;
-		*head = *head->next;
-		free(tmp);
+		free(*head);
+		*head = (*head->next);
 	}
+	head = NULL;
 }
