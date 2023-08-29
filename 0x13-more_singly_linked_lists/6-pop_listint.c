@@ -1,4 +1,5 @@
 #include "lists.h"
+#include <stdlib.h>
 /**
  * pop_listint - pops a list element from the beginning of a list
  * @head: double pointer to head of list
