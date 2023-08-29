@@ -9,14 +9,14 @@
 
 void free_listint2(listint_t **head)
 {
-	listint_t **tmp;
-
 	if (head == NULL)
 	{
 		return;
 	}
-	else
+	while (*head)
+	{
 		free(*head);
 		*head = (*head->next);
+	}
 	head = NULL;
 }
