@@ -2,6 +2,10 @@
 #include <stdio.h>
 
 /**
+ *  read_textfile - fontion that read content of fille
+ *  @filename: name of file
+ *  @letters: letters
+ *  Return: 0
  */
 
 ssize_t read_textfile(const char *filename, size_t letters)
